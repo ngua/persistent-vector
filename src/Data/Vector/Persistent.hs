@@ -58,7 +58,7 @@ import Prelude hiding
   ( null, length, tail, take
   , drop, map, foldr, foldl
   , reverse, splitAt, filter
-  , takeWhile, dropWhile )
+  , takeWhile, dropWhile, foldl' )
 
 import qualified Control.Applicative as Ap
 import Control.DeepSeq

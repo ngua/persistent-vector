@@ -69,7 +69,7 @@ import Control.DeepSeq
 import Control.Monad.ST
 import qualified GHC.Exts as Ext
 import GHC.ST (ST(..))
-import Prelude hiding (filter, foldl, foldr, length, map, read)
+import Prelude hiding (filter, foldl, foldl', foldr, length, map, read)
 import qualified Data.Foldable as F
 #if !MIN_VERSION_base(4,8,0)
 import Data.Monoid (mappend)
